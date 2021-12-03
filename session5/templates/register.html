@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <form action="submit_form" method="POST">
+            First Name:<input name='fname' type=“text”><br><br>
+            Last Name:<input name='lname' type=“text”><br><br>
+            Email:<input name='email' type=“email”><br><br>
+            Password:<input name='password' type="password" minlength="6"><br><br>
+
+            <input name="birthday" type="date"><br><br>
+
+            <p>Select your gender</p>
+            <input name="gender" type="radio" value="male">Male<br><br>
+            <input name="gender" type="radio" value="female">Female<br><br>
+            <input name="gender" type="radio" value="nothing">Prefer not to say<br><br>
+            <label for="hobby">Choose a hobby:</label>
+            <select id="hobby" name="hobby">
+                <option value="Sports">Sports</option>
+                <option value="Reading">Reading</option>
+                <option value="Gaming">Gaming</option>
+                <option value="what is hobby">what is hobby</option>
+            </select><br></br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

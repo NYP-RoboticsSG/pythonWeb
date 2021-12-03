@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href='/static/main.css' />
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Tangerine">
+        <!-- favicon -->
+        <title>My Website using python and CSS </title>
+    </head>
+    <body>
+        <h1>Home page</h1>
+            <p>My first Flask site</p>
+            <a href="newpage.html"> New Page</a>
+            <a href="register.html"> Register</a>
+
+        <input type = "button" onclick = "Hello()" value = "Hello" />
+    </body>
+    <script type = "text/javascript"
+            src = "{{ url_for('static', filename = 'hello.js') }}" ></script>
+</html>
